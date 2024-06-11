@@ -1,4 +1,5 @@
 {
+  "homepage": "https://shivmodi1203.github.io/my-book-store/",
   "name": "bookstore",
   "version": "0.1.0",
   "private": false,
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
