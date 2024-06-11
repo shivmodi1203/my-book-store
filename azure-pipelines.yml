@@ -23,7 +23,7 @@ stages:
         targetType: 'inline'
         script: |
           ids=$(az webapp list --query '[0].id' -o tsv)
-          repo_url=https://github.com/shivmodi1203/online-book-stroe.git
+          repo_url=https://github.com/shivmodi1203/my-book-store.git
           az webapp deployment source config --branch master --manual-integration --repo-url $repo_url --ids $ids
           az webapp deployment source sync --ids $ids
       displayName: 'Push Azure'
